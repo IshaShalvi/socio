@@ -1,0 +1,35 @@
+.home-posts {
+  background-color: white;
+  margin-left: 40px;
+  width: 50%;
+  height: 100%;
+  margin-top: 0px;
+  color: blue; }
+  .home-posts #feed-posts {
+    display: flex;
+    flex-direction: column; }
+    .home-posts #feed-posts h4 {
+      color: red; }
+    .home-posts #feed-posts form {
+      background-color: black; }
+      .home-posts #feed-posts form input[type=submit] {
+        background-color: #FA87F5;
+        color: white;
+        border: 1px solid #87CEFA; }
+      .home-posts #feed-posts form textarea {
+        color: red;
+        width: 50%;
+        height: 100px;
+        background-color: purple;
+        border: 1px solid red;
+        border-radius: 2%; }
+    .home-posts #feed-posts #display {
+      background-color: blueviolet; }
+      .home-posts #feed-posts #display ul li {
+        list-style-type: none;
+        background-color: aqua;
+        margin-right: 50px; }
+        .home-posts #feed-posts #display ul li p {
+          color: red; }
+        .home-posts #feed-posts #display ul li .post-comments .post-comments-list {
+          color: black; }

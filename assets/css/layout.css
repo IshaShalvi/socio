@@ -1,23 +1,5 @@
 body {
   margin: 0;
-  text-align: center; }
+  background-color: aqua; }
   body #layout-main {
-    height: 85%;
-    color: #87CEFA;
-    margin-top: 100px; }
-    body #layout-main form input {
-      display: flex;
-      margin: 20px auto; }
-    body #layout-main form input[type=email] {
-      color: red;
-      width: 300px; }
-    body #layout-main form input[type=text] {
-      color: red;
-      width: 300px; }
-    body #layout-main form input[type=password] {
-      color: red;
-      width: 300px; }
-    body #layout-main form input[type=submit] {
-      background-color: #FA87F5;
-      color: white;
-      border: 1px solid #FA87F5; }
+    height: 85%; }

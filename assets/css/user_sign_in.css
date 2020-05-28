@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  margin-top: 100px; }
+
+form input {
+  display: flex;
+  margin: 20px auto; }
+
+form input[type=email] {
+  color: red;
+  width: 300px; }
+
+form input[type=text] {
+  color: red;
+  width: 300px; }
+
+form input[type=password] {
+  color: red;
+  width: 300px; }
+
+form input[type=submit] {
+  background-color: #FA87F5;
+  color: white;
+  border: 1px solid #FA87F5; }

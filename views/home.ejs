@@ -1,4 +1,7 @@
+<link rel="stylesheet" href="/css/home.css">
+<div class="home-posts">
 <h1>Socio / <%= title %></h1>
+
 <section id="feed-posts">
     <h4>Posts</h4>
     <% if(locals.user){ %>
@@ -8,11 +11,17 @@
     </form>
     <% } %>
 
-    <div>
+    <div id="display">
         <ul>
             <% for(post of posts){%>
                 <li>
                     <p>
+                        <% if (locals.user && locals.user.id==post.user.id) {%>
+                        <small>
+                            <a href="/posts/destroy/<%=  post.id%>">X</a>
+                        </small>
+                        <% } %>
+
                         <%= post.content %>
                     <br>
                     <small>
@@ -52,4 +61,5 @@
         </ul>
     </div>
 
-</section>     
+</section>   
+</div>  

@@ -1,0 +1,63 @@
+.home-posts{
+    background-color:white;
+    margin-left:40px;
+    width:50%;
+    height:100%;
+    margin-top:0px;
+    color:blue;
+        #feed-posts{
+            display:flex;
+            flex-direction: column;
+            h4{
+                color:red;
+
+            }
+            form{
+                background-color:black;
+                input[type=submit]
+                 {
+                 background-color:#FA87F5;
+       
+                color:white;
+                border:1px solid #87CEFA;
+
+                 }
+                 textarea{
+
+                    color:red;
+                    width:50%;
+                    height:100px;
+                    background-color:purple;
+                    border:1px solid red;
+                    border-radius:2%;
+
+                 }
+            }
+            #display{
+                background-color:blueviolet;
+
+                ul{
+                    li{
+                        list-style-type: none;
+                        background-color:aqua;
+                        margin-right:50px;
+                        
+                        p{
+                            color:red;
+
+                        }
+                        .post-comments{
+                            .post-comments-list{
+                                color:black;
+                            }
+                        }
+                    
+                        
+                    }
+                }
+            }
+
+
+         }
+}
+    
