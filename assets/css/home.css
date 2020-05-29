@@ -1,35 +1,42 @@
-.home-posts {
+.home-container {
   background-color: white;
   margin-left: 40px;
-  width: 50%;
   height: 100%;
   margin-top: 0px;
+  display: flex;
   color: blue; }
-  .home-posts #feed-posts {
+  .home-container #feed-posts {
     display: flex;
-    flex-direction: column; }
-    .home-posts #feed-posts h4 {
+    flex-direction: column;
+    width: 70%;
+    padding: 10px; }
+    .home-container #feed-posts h4 {
       color: red; }
-    .home-posts #feed-posts form {
+    .home-container #feed-posts form {
       background-color: black; }
-      .home-posts #feed-posts form input[type=submit] {
+      .home-container #feed-posts form input[type=submit] {
         background-color: #FA87F5;
         color: white;
         border: 1px solid #87CEFA; }
-      .home-posts #feed-posts form textarea {
+      .home-container #feed-posts form textarea {
         color: red;
         width: 50%;
         height: 100px;
         background-color: purple;
         border: 1px solid red;
         border-radius: 2%; }
-    .home-posts #feed-posts #display {
+    .home-container #feed-posts #display {
       background-color: blueviolet; }
-      .home-posts #feed-posts #display ul li {
+      .home-container #feed-posts #display ul li {
         list-style-type: none;
         background-color: aqua;
         margin-right: 50px; }
-        .home-posts #feed-posts #display ul li p {
+        .home-container #feed-posts #display ul li p {
           color: red; }
-        .home-posts #feed-posts #display ul li .post-comments .post-comments-list {
+        .home-container #feed-posts #display ul li .post-comments .post-comments-list {
           color: black; }
+  .home-container #user-friends {
+    width: 30%;
+    padding: 10px;
+    border-left: 1px solid purple;
+    height: 100%; }

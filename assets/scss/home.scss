@@ -1,13 +1,18 @@
-.home-posts{
+.home-container{
     background-color:white;
     margin-left:40px;
-    width:50%;
+    //width:50%;
     height:100%;
     margin-top:0px;
+    display:flex;
+
     color:blue;
         #feed-posts{
             display:flex;
             flex-direction: column;
+            width:70%;
+            padding:10px;
+
             h4{
                 color:red;
 
@@ -58,6 +63,12 @@
             }
 
 
+         }
+         #user-friends{
+             width:30%;
+             padding:10px;
+             border-left:1px solid purple;
+             height:100%;
          }
 }
     
